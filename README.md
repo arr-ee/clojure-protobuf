@@ -1,3 +1,5 @@
+# This fork removes dependency on lein-protobuf, which means you can’t compile .proto files via lein. It won’t be maintained, use on your own risk
+
 clojure-protobuf provides a Clojure interface to Google's [protocol buffers](http://code.google.com/p/protobuf).
 Protocol buffers can be used to communicate with other languages over the network, and
 they are WAY faster to serialize and deserialize than standard Clojure objects.
